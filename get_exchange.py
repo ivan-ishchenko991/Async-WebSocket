@@ -36,7 +36,6 @@ def get_days_range(days, today):
     date_lst.append(str_date_now)
     for _ in range(days-1):
         today -= diff
-        # date = date.strftime("%d.%m.%Y")
         date_lst.append(today.strftime("%d.%m.%Y"))
     return date_lst
 
